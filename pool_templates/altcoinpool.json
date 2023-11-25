@@ -229,7 +229,7 @@
             }
         ],
         "miners": {
-            "_prototype": "miners_ghostrider"
+            "_prototype": "miners_nexapow"
         }
     }
 ]
