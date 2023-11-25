@@ -230,7 +230,7 @@
             }
         ],
         "miners": {
-            "_prototype": "miners_sha512256d"
+            "_prototype": "miners_nexapow"
         }
     }
 ]
