@@ -218,5 +218,19 @@
         "miners": {
             "_prototype": "miners_sha512256d"
         }
+    },
+{
+        "coin": "NEXA",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4242"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_sha512256d"
+        }
     }
 ]
