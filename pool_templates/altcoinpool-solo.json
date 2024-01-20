@@ -7,7 +7,7 @@
             "type": "SOLO"
         }
     },
-    {
+    	{
         "coin": "ETX",
         "servers": [
             {
@@ -35,7 +35,7 @@
             "_prototype": "miners_ethash"
         }
     },
-    {
+    	{
         "coin": "CAU",
         "servers": [
             {
@@ -119,7 +119,7 @@
             "_prototype": "miners_kawpow"
         }
     },
-    {
+    	{
         "coin": "HVQ",
         "servers": [
             {
@@ -133,7 +133,7 @@
             "_prototype": "miners_kawpow"
         }
     },
-    {
+    	{
 	
         "coin": "SATOX",
         "servers": [
@@ -148,7 +148,7 @@
             "_prototype": "miners_kawpow"
         }
     },
-    {
+    	{
 	
         "coin": "KIIRO",
         "servers": [
@@ -163,7 +163,7 @@
             "_prototype": "miners_firopow"
         }
     },
-    {
+    	{
         "coin": "SKYDOGE",
         "servers": [
             {
@@ -177,7 +177,7 @@
             "_prototype": "miners_skydoge"
         }
     },
-   {
+    	{
         "coin": "CRNC",
         "servers": [
             {
@@ -191,7 +191,7 @@
             "_prototype": "miners_YespowerLTNCG"
         }
     },
-    {
+    	{
         "coin": "GPRX",
         "servers": [
             {
@@ -205,7 +205,7 @@
             "_prototype": "miners_ghostrider"
         }
     },
-    {
+    	{
         "coin": "RXD",
         "servers": [
             {
@@ -219,7 +219,7 @@
             "_prototype": "miners_sha512256d"
         }
     },
-{
+    	{
         "coin": "NEXA",
         "servers": [
             {
@@ -231,6 +231,90 @@
         ],
         "miners": {
             "_prototype": "miners_nexapow"
+        }
+    },
+    	{
+        "coin": "CAU",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4038"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Ethash"
+        }
+    },
+    	{
+        "coin": "REDEV2",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4042"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Ethash"
+        }
+    },
+    	{
+        "coin": "HYP",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4054"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_EthashB3"
+        }
+    },
+    	{
+        "coin": "CLORE",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:11008"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_KawPow"
+        }
+    },
+    	{
+        "coin": "VISH",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:6242"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Yespower"
+        }
+    },
+    	{
+        "coin": "NET",
+        "servers": [
+            {
+                "geo": "SOLO RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4234"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_X11"
         }
     }
 ]
