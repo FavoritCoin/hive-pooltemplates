@@ -218,7 +218,7 @@
             "_prototype": "miners_sha512256d"
         }
     },
-{
+    {
         "coin": "NEXA",
         "servers": [
             {
@@ -230,6 +230,90 @@
         ],
         "miners": {
             "_prototype": "miners_nexapow"
+        }
+    },
+    {
+        "coin": "CAU",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4036"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Ethash"
+        }
+    },
+    {
+        "coin": "REDEV2",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4040"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Ethash"
+        }
+    },
+    	{
+        "coin": "HYP",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4052"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_EthashB3"
+        }
+    },
+    	{
+        "coin": "CLORE",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:10008"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_KawPow"
+        }
+    },
+    	{
+        "coin": "VISH",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:6241"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_Yespower"
+        }
+    },
+    	{
+        "coin": "NET",
+        "servers": [
+            {
+                "geo": "RU",
+                "urls": [
+                    "ru-stratum.altcoinpool.ru:4236"
+                ]
+            }
+        ],
+        "miners": {
+            "_prototype": "miners_X11"
         }
     }
 ]
